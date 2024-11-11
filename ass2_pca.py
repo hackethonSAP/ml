@@ -34,4 +34,10 @@ df_pca=pd.DataFrame(df_pca)
 # Step 3: Convert the result back to a DataFrame
 print(df_pca)
 
+#Principal Component Analysis (PCA) is a technique used for dimensionality reduction. 
+#It transforms data from a high-dimensional space into a lower-dimensional space while preserving as much information (variance) as possible. 
+#In other words, PCA helps you reduce the number of features in your dataset while retaining the most important aspects of the data.
+
+#Standardize the Data: PCA is affected by the scale of the data, so it's common to standardize or normalize the data before applying PCA
+
 
