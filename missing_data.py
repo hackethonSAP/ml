@@ -30,6 +30,13 @@ y=data['Online Shopper']
 
 x_train,x_text,y_train,y_test=train_test_split(x,y,test_size=0.33,random_state=2)
 
+from sklearn.preprocessing import MinMaxScaler
+
+scaler=MinMaxScaler()
+scaled = scaler.fit_transform(data[['Income']])
+
+scaled
+
 
 
 
