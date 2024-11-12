@@ -9,11 +9,12 @@ data.isnull()
 
 # %%
 #data['Income'].fillna(0,inplace=True)
-
+#missing values 
 data['Income'].fillna(data['Income'].mean(),inplace=True)
 data
 
 # %%
+#yes or not like 1 or 0
 data_region=pd.get_dummies(data,columns=['Region'])
 data_region
 
